@@ -1,0 +1,25 @@
+$dark-gray: #555555;
+$orange: #f05a23;
+
+#stage {
+    height: 500px;
+    position: relative;
+    background-color: #30004b;
+    /*cursor: url(crosshairs-solid.svg), auto;*/
+    cursor: url(dot-circle-regular.svg), auto;
+    overflow: hidden;
+}
+#stage h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 1px;
+    line-height: 500px;
+    vertical-align: middle;
+}
+#stage h2.message.win {
+    color: yellowgreen;
+}
+#stage h2.message.lost {
+    color: red;
+}
