@@ -83,7 +83,17 @@ main {
 #react-container {
     background: #30004b;
 }
-
+footer {
+    width: 100%;
+    padding: 1.5rem 0;
+    font-size: 90%;
+    text-align: center;
+    color: #d7b4f0;
+    clear: both;
+}
+.project-info {
+    padding-bottom: 10px;
+}
 /* ======================================================
 STAGE
 ====================================================== */
